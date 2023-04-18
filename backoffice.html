@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="loader.css" />
+    <link rel="stylesheet" href="backoffice.css" />
+    <title>Nuovo prodotto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="loader"><div></div></div>
+    <section>
+      <h2>Dati del nuovo prodotto</h2>
+      <div class="form">
+        <input id="name" type="text" placeholder="Nome" />
+        <input id="description" type="text" placeholder="Descrizione" />
+        <input id="brand" type="text" placeholder="Marca" />
+        <input id="imageUrl" type="text" placeholder="Image URL" />
+        <input id="price" type="text" placeholder="Prezzo" />
+        <button id="addProduct">Aggiungi</button>
+      </div>
+    </section>
+
+    <section class="productList">
+      <h2>Lista dei prodotti presenti</h2>
+    </section>
+
+    <section class="dialogSection">
+      <dialog id="dialogBox">
+        <h3>Modifica prodotto</h3>
+        <input id="d-name" type="text" placeholder="Nome" /><br />
+        <input id="d-description" type="text" placeholder="Descrizione" /><br />
+        <input id="d-brand" type="text" placeholder="Marca" /><br />
+        <input id="d-imageUrl" type="text" placeholder="Image URL" /><br />
+        <input id="d-price" type="text" placeholder="Prezzo" /><br />
+        <button id="saveButton">Salva</button>
+        <button id="closeButton">Annulla</button>
+      </dialog>
+    </section>
+
+    <script src="./common.js"></script>
+    <script src="./backoffice.js"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #d9e3e2;
+  color: #222d33;
+  text-align: center;
+}
+.container {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-around;
+}
+
+.card {
+  border: 2px solid #090a0e;
+  border-radius: 10px;
+  background-color: #839997;
+  margin: 0 10px;
+  font-size: 15pt;
+  padding: 5px;
+  color: #222d33;
+  box-shadow: 5px 2px 5px #8f8d8d;
+}
+
+.card:hover {
+  transform: scale(1.1, 1.1);
+  background-color: #abb6b5;
+}
+
+h1 {
+  display: none;
+}

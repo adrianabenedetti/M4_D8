@@ -1,0 +1,25 @@
+body {
+  font-size: 15pt;
+  font-family: "Raleway", sans-serif;
+  background-color: #d9e3e2;
+  color: #222d33;
+}
+
+input {
+  margin: 5px 0;
+  font-size: 15pt;
+  display: block;
+}
+
+#addProduct {
+  font-size: 15pt;
+  margin-top: 5px;
+}
+
+.productList .margin {
+  margin: 3px 5px;
+}
+
+.form {
+  display: block;
+}
